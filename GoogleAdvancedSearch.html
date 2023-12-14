@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>Google Advanced Search</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <img alt="Google" src="img/Logo.png" style="width: 74px">
+    <div class="right">
+        <a href="index.html">Google Search</a>
+    </div>
+</div>
+<div>
+    <h2 class="padded" style="color: red; font-weight: normal">Advanced Search</h2>
+    <hr>
+    <form action="https://google.com/search">
+        <div class="padded">
+            <h4 style="font-weight: normal; font-size: 18px">Find pages with...</h4>
+            <div>
+                <label for="1">all these words:</label>
+                <input id="1" name="as_q" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="2">this exact word or phrase:</label>
+                <input id="2" name="as_epq" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="3">any of these words:</label>
+                <input id="3" name="as_oq" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="4">none of these words:</label>
+                <input id="4" name="as_eq" type="text">
+            </div>
+            <br>
+            <div>
+                <label for="5">numbers ranging from:</label>
+                <input id="5" name="as_nlo" type="text">
+                <label for="6" style="width: 50px; text-align: center">to:</label>
+                <input id="6" name="as_nhi" type="text">
+            </div>
+            <br>
+        </div>
+        <div class="padded" style="text-align: center">
+            <input id="AdvancedSearch" type="submit" value="Advanced Search">
+        </div>
+    </form>
+</div>
+</body>
+</html>
